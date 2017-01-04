@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name TiRicheditBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.miga.richedit.RicheditViewProxy.h"
+#include "com.miga.richedit.TiRicheditModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.miga.richedit.RicheditViewProxy, ::com::miga::richedit::tirichedit::RicheditViewProxy::bindProxy, ::com::miga::richedit::tirichedit::RicheditViewProxy::dispose
+com.miga.richedit.TiRicheditModule, ::com::miga::richedit::TiRicheditModule::bindProxy, ::com::miga::richedit::TiRicheditModule::dispose
+%%
