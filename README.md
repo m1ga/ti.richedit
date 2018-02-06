@@ -1,5 +1,7 @@
 # Titanium Richtext Editor for Android
 
+## work in progress
+
 ![img](redit.png)
 
 
