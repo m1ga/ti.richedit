@@ -2,17 +2,17 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.0
-apiversion: 3
-architectures: armeabi-v7a x86
+version: 2.0.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86
 description: ti.richedit
-author: Your Name
-license: Specify your license
-copyright: Copyright (c) 2017 by Your Company
+author: Michael Gangolf
+license: CC0
+copyright: Copyright (c) 2018
 
 # these should not be edited
 name: ti.richedit
 moduleid: com.miga.richedit
 guid: cf455548-d47b-4a96-b991-754096d65c5e
 platform: android
-minsdk: 6.0.1.GA
+minsdk: 7.0.0.GA

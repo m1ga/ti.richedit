@@ -1,0 +1,7 @@
+android/build
+android/libs
+android/example
+android/dist
+android/java-sources.txt
+android/build.properties
+
